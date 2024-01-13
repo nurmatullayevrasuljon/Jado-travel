@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="vendor/css/bootstrap.css">
+
+    <link rel="stylesheet" href="vendor/css_2/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/css_2/owl.theme.default.min.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0 bg-card">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-xl d-flex justify-content-center ps" id="navvigationbarvisablehidden">
+            <button class="navbar-toggler d-xl-none n-icon" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon n-icon">
+                    <img src="Img/Vector (3).png" class="w-50">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav between w-100 d-flex align-items-center">
+                    <li class="navbar-brand ml-5" href="?page=main">
+                        <a class="nav-link menu-item text-dark">
+                            <img src="Img/Logo.png" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item offset-xl-2 offset-sm-1" style="cursor: pointer;">
+                        <a href="index.html" class="nav-link menu-item nav-text fs">Desitnations</a>
+                    </li>
+                    <li class="nav-item ml-5" style="cursor: pointer;">
+                        <a href="hotels.html" class="nav-link menu-item nav-text fs">Hotels</a>
+                    </li>
+                    <li class="nav-item ml-5" style="cursor: pointer;">
+                        <a href="flight.html" class="nav-link menu-item nav-text fs">Flights</a>
+                    </li>
+                    <li class="nav-item ml-5" style="cursor: pointer;">
+                        <a href="booking.html" class="nav-link menu-item nav-text fs">Bookings</a>
+                    </li>
+                    <li class="nav-item ml-5" style="cursor: pointer;">
+                        <a href="login.html" class="nav-link menu-item nav-text fs">Login</a>
+                    </li>
+                    <li class="nav-item ml-5">
+                        <button class="btn btn-outline-pink p-0" style="width: 100px;font-family: sans-serif;">
+                            <a href="register.html" class="nav-link menu-item nav-text" style="cursor: pointer;">Sign up</a>
+                        </button>
+                    </li>
+                    <div class="dropdown ml-5" style="font-family: sans-serif;">
+                        <span class="dropdown-toggle rounded-pill pl-1" data-toggle="dropdown">EN</span>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item text-decoration-none">RU</a>
+                            <a href="#" class="dropdown-item text-decoration-none">EN</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <!-- /Navbar -->
+
+        <div class="img-4">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-md-12 mt-5 text-center text-white">
+                        <h1 class="display-4 font-weight-bold display-4 fs">Login</h1>
+                    </div>
+                    <div class="col-10 col-lg-5 col-sm-10 col-md-9 bg-3">
+                        <form method="post" class="w-75" style="font-family: sans-serif !important;">
+                            <label>
+                                <b>Email</b>
+                            </label>
+                            <input type="email" class="form-control" required placeholder="Enter your email" name="email" autocomplete="off">
+                            <div class="form-group my-4">
+                                <label class="label">
+                                    <b>Password</b>
+                                    <span id="eye" onclick="one()" style="cursor: pointer;">
+                                        <img src="img/ko'z.png" width="20px">
+                                    </span>
+                                </label>
+                                <input type="password" class="form-control" required placeholder="Enter your password" id="inp" name="parol" autocomplete="off">
+                            </div>
+                            <button type="submit" class="btn btn-yellow btn-block my-1 rounded-pill" name="btn">Log in</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="row d-flex justify-content-center mt-5">
+            <div class="col-5 col-lg-2 col-md-3 col-sm-5">
+                <img src="img/Jadoo..png" alt="">
+                <span class="fs-2" style="color: #5e6282;"><br><br>
+                    Book your trip in minute,get full <br>Control for much logner
+                </span>
+            </div>
+            <div class="col-5 col-lg-2 col-md-3 col-sm-5">
+                <b class="text-15">Company</b><br><br>
+                <a href="#" class="text-16">About</a><br>
+                <a href="#" class="text-16">Careers</a><br>
+                <a href="#" class="text-16">Mobile</a>
+            </div>
+            <div class="col-5 col-lg-2 col-md-3 col-sm-5">
+                <b class="text-15">Contact</b><br><br>
+                <a href="#" class="text-16">Help/FAQ</a><br>
+                <a href="#" class="text-16">Press</a><br>
+                <a href="#" class="text-16">Affilates</a>
+            </div>
+            <div class="col-5 col-lg-2 col-md-3 col-sm-5">
+                <b class="text-15">More</b><br><br>
+                <a href="#" class="text-16">Airlinefees</a><br>
+                <a href="#" class="text-16">Airline</a><br>
+                <a href="#" class="text-16">Low fare tips</a>
+            </div>
+            <div class="col-5 col-lg-2 col-md-3 col-sm-5 p-0">
+                <a href="#">
+                    <img src="img/Social.png" style="text-decoration: none !important;">
+                </a>
+                <a href="#">
+                    <img src="img/Social (1).png" style="text-decoration: none !important;">
+                </a>
+                <a href="#">
+                    <img src="img/Social (2).png" style="text-decoration: none !important;">
+                </a>
+                <span class="text-17 offset-1">Discover our app</span>
+                <a href="#">
+                    <img src="img/Google Play.png" style="text-decoration: none !important;width: 100px;">
+                </a>
+                <a href="#">
+                    <img src="img/Play Store.png" style="text-decoration: none !important;width: 100px;">
+                </a>
+            </div>
+        </div>
+        <!-- /Footer -->
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>
+<script src="vendor/scripts/jQuery.min.js"></script>
+
+<script src="vendor/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="vendor/js/popper.min.js"></script>
+<script src="vendor/js/bootstrap.min.js"></script>
+<script src="vendor/js/jquery.stellar.min.js"></script>
+<script src="vendor/js/owl.carousel.min.js"></script>
+<script src="vendor/js/aos.js"></script>
+<script src="vendor/js/scrollax.min.js"></script>
+<script src="vendor/js/main.js"></script>

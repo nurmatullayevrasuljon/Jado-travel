@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/jquery-nice-select-1.1.0/jquery-nice-select-1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-xl d-flex justify-content-center ps" id="navvigationbarvisablehidden">
+            <button class="navbar-toggler d-xl-none n-icon" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon n-icon">
+                    <img src="Img/Vector (3).png" class="w-50">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav between w-100 d-flex align-items-center">
+                    <li class="navbar-brand ml-5" href="?page=main">
+                        <a class="nav-link menu-item text-dark">
+                            <img src="Img/Logo.png" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item offset-xl-2 offset-sm-1" style="cursor: pointer;">
+                        <a href="index.html" class="nav-link menu-item nav-text fs">Desitnations</a>
+                    </li>
+                    <li class="nav-item ml-5" style="cursor: pointer;">
+                        <a href="hotels.html" class="nav-link menu-item nav-text fs">Hotels</a>
+                    </li>
+                    <li class="nav-item ml-5" style="cursor: pointer;">
+                        <a href="flight.html" class="nav-link menu-item nav-text fs">Flights</a>
+                    </li>
+                    <li class="nav-item ml-5" style="cursor: pointer;">
+                        <a href="booking.html" class="nav-link menu-item nav-text fs">Bookings</a>
+                    </li>
+                    <li class="nav-item ml-5" style="cursor: pointer;">
+                        <a href="login.html" class="nav-link menu-item nav-text fs">Login</a>
+                    </li>
+                    <li class="nav-item ml-5">
+                        <button class="btn btn-outline-pink p-0" style="width: 100px;font-family: sans-serif;">
+                            <a href="register.html" class="nav-link menu-item nav-text" style="cursor: pointer;">Sign up</a>
+                        </button>
+                    </li>
+                    <div class="dropdown ml-5" style="font-family: sans-serif;">
+                        <span class="dropdown-toggle rounded-pill pl-1" data-toggle="dropdown">EN</span>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item text-decoration-none">RU</a>
+                            <a href="#" class="dropdown-item text-decoration-none">EN</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <!-- /Navbar -->
+
+        <!-- Modal -->
+        <div class="modal fade show" id="menu">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content border-0">
+                    <div class="modal-header">
+                        <b class="offset-11">
+                            <a href="#" class="text-danger text-decoration-none" data-dismiss="modal">X</a>
+                        </b>
+                    </div>
+                    <div class="modal-body p-0">
+                        <video src="img/Travel Agency Video Template (Editable).mp4" autoplay controls style="width: 100% !important;"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Modal -->
+
+        <!-- Header -->
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="img/Ellipse 8.png" style="position: absolute; width: 150px;">
+                <h5 class="offset-1 px-4 mt-5 text-one">BEST DESTINATIONS AROUND THE WORLD</h5>
+                <div class="display-2 offset-1 px-4 text-shrift">
+                    Travel, enjoy <br>and live a new <br> and full life
+                </div><br>
+                <span class="offset-1 px-4 text-2">Built Wicket longer admire do barton vanity itself do in it.
+                    <br>Preferred to sportsmen it engrossed listening.Park gate <br> sell they west hard for the.</span>
+                <button class="btn btn-yellow my-4 b-shadow" style="font-family: sans-serif;">Find out more</button>
+                <span class="p-0 text-3">
+                    <img src="img/Play button.png" class="mt-4" style="width: 100px !important;cursor: pointer;"
+                        data-toggle="modal" data-target="#menu">
+                    Palay Demo
+                </span>
+            </div>
+            <div class="col-lg-6 p-0">
+                <div class="img">
+                    <img src="img/Image-1.png" class="img-fluid img-position">
+                </div>
+            </div>
+        </div>
+        <!-- /Header -->
+
+        <!-- Servic-card -->
+        <div class="row d-flex justify-content-center">
+            <img src="img/Group 4.png" class="offset-lg-10 plyus-img-2">
+            <h1 class="text-center" style="margin-top: -150px !important;font-weight: 700;">
+                <p class="text-4">CATEGORY</p>
+                We Offer Best Services
+            </h1>
+        </div>
+        <div class="row d-flex justify-content-around p-4">
+            <div class="col-10 col-lg-2 col-md-5 col-sm-5 my-4 my-lg-0 hover p-3 bg-white">
+                <img src="img/Group 48.png" class="offset-3">
+                <p class="text-5 text-center my-3">
+                    Calculated Weather
+                <p class="text-6 mt-2">Built Wicket longer <br> admire do barton <br> vanity itself do in it.</p>
+                </p>
+            </div>
+            <div class="col-10 col-lg-2 col-md-5 col-sm-5 my-4 my-lg-0 hover bg-white">
+                <img src="img/Group 51.png" class="offset-2" style="width: 125px;">
+                <p class="text-5 text-center">
+                    Best Flights
+                <p class="text-6 mt-2">Built Wicket longer <br> admire do barton <br> vanity itself do in it.</p>
+                </p>
+            </div>
+            <img src="img/Rectangle 157.png" class="position-icon">
+            <div class="col-10 col-lg-2 col-md-5 col-sm-5 my-4 my-lg-0 hover p-3">
+                <img src="img/Group 50.png" class="offset-4">
+                <p class="text-5 text-center mt-4">
+                    Local Events
+                <p class="text-6 mt-2">Built Wicket longer <br> admire do barton <br> vanity itself do in it.</p>
+                </p>
+            </div>
+            <div class="col-10 col-lg-2 col-md-5 col-sm-5 my-4 my-lg-0 hover p-3">
+                <img src="img/Group 49.png" class="offset-3" style="width: 90px;">
+                <p class="text-5 text-center mt-4">
+                    Calculated Weather
+                <p class="text-6 mt-2">Built Wicket longer <br> admire do barton <br> vanity itself do in it.</p>
+                </p>
+            </div>
+        </div><br><br><br><br><br>
+        <!-- /Servic-card -->
+
+        <!-- Card -->
+        <div class="row d-flex justify-content-center mt-5">
+            <h1 class="text-center" style="margin-top: -150px !important;font-weight: 700;">
+                <p class="text-4">Top Selling</p>
+                Top Desitnations
+            </h1>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-10 col-lg-4 col-md-6 col-sm-6 my-4 my-lg-0 img-card">
+                <img src="img/Rectangle 16.png" style="width: 100%;">
+                <div class="white bg-white offset-2 p-3">
+                    <span class="text-7">Rome,Italy</span>
+                    <span class="text-7 offset-5">$5,42k</span><br><br>
+                    <span class="text-7">
+                        <img src="img/navigation 1.png">
+                        10 Days Trips
+                    </span>
+                </div>
+            </div>
+            <div class="col-10 col-lg-4 col-md-6 col-sm-6 my-4 my-lg-0 img-card">
+                <img src="img/Rectangle 14.jpg" style="width: 100%;">
+                <div class="white bg-white offset-2 p-3">
+                    <span class="text-7">London,UK</span>
+                    <span class="text-7 offset-5">$4.2k</span><br><br>
+                    <span class="text-7">
+                        <img src="img/navigation 1.png">
+                        12 Days Trips
+                    </span>
+                </div>
+            </div>
+            <div class="col-10 col-lg-4 col-md-6 col-sm-6 my-4 my-lg-0 img-card">
+                <img src="img/Rectangle 14.png" style="width: 100%;z-index: 1;">
+                <div class="white bg-white offset-2 p-3" style="z-index: 2;">
+                    <span class="text-7">FUll Europe</span>
+                    <span class="text-7 offset-5">$15k</span><br><br>
+                    <span class="text-7">
+                        <img src="img/navigation 1.png">
+                        28 Days Trips
+                    </span>
+                </div>
+                <img src="img/Decore (1).png" class="offset-8" style="position: absolute;margin-top: 7rem;">
+                <br><br><br><br>
+            </div>
+        </div>
+        <!-- /Card -->
+
+        <!-- Two-column -->
+        <div class="row mt-5">
+            <div class="col-lg-6 px-4">
+                <h1 class="offset-1 display-4 text-18" style="font-weight: 700;">
+                    <p class="text-8">Easy and Fast</p>
+                    Book Your Next Trip <br> In 3 Easy Steps
+                </h1>
+                <div class="row px-4">
+                    <div class="col-lg-8 col-md-5 offset-1 d-flex align-items-center mt-4 hover-2 p-0" style="height: 80px;">
+                        <img src="img/Group 7.png" alt="">
+                        <b class="text-9 offset-1">
+                            Choose Destination <br>
+                            <span class="text-10">Lorem ipsum dolor sit, amet consectetur</span>
+                            <span class="text-10"> adipisicing elit. Alias, asperiores quos!</span>
+                        </b>
+                    </div>
+                    <div class="col-lg-8 col-md-5 offset-1 d-flex align-items-center my-3 hover-2 p-0" style="height: 80px;">
+                        <img src="img/Group 12.png" alt="">
+                        <b class="text-9 offset-1">
+                            Make Payment <br>
+                            <span class="text-10">Lorem ipsum dolor sit, amet consectetur</span>
+                            <span class="text-10"> adipisicing elit. Alias, asperiores quos!</span>
+                        </b>
+                    </div>
+                    <div class="col-lg-8 col-md-5 offset-1 offset-lg-1 offset-sm-1 d-flex mt-4 mt-lg-0 align-items-center hover-2 p-0" style="height: 80px;">
+                        <img src="img/Group 11.png" alt="">
+                        <b class="text-9 offset-1">
+                            Rearch Airport on Selected Date<br>
+                            <span class="text-10">Lorem ipsum dolor sit, amet consectetur</span>
+                            <span class="text-10"> adipisicing elit. Alias, asperiores quos!</span>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 pr mt-5 mt-lg-0"><br><br>
+                <div class="row mt-3">
+                    <div class="col-8 col-lg-7 col-md-5 col-sm-7 offset-1 offset-lg-2 offset-sm-2 mt-4 border-r d-flex justify-content-center flex-column p-3 pr">
+                        <img src="img/Rectangle 17.jpg" class="img-fluid"><br>
+                        <span class="text-11">Trip To Greece</span>
+                        <span class="text-12 mt-2">14-29 June | by Robbin join</span>
+                        <div class="d-flex">
+                            <a href="#" class="m-2">
+                                <img src="img/LEAF.png" class="mt-2" style="width: 35px;">
+                            </a>
+                            <a href="#" class="m-2">
+                                <img src="img/map icon.png" class="mt-2" style="width: 35px;">
+                            </a>
+                            <a href="#" class="m-2">
+                                <img src="img/send.png" class="mt-2" style="width: 35px;">
+                            </a><br>
+                        </div>
+                        <div class="d-flex">
+                            <img src="img/building 1.png" class="ml-2 mt-2" style="width: 15px;">
+                            <span class="text-12 mt-2 ml-2">24people going</span>
+                            <img src="img/heart (6) 1.png" class="offset-6 mt-2" style="width: 18px;height: 18px;">
+                        </div>
+                        <div class="col-7 radius offset-8 p-2 mt-5" style="position: absolute;">
+                            <div class="d-flex">
+                                <img src="img/Mask Group.png" alt="">
+                                <span class="text-13 ml-2">
+                                    Ongoing <br>
+                                    <b style="font-size: 16px;color: #000;">Trip to rome</b>
+                                </span>
+                            </div>
+                            <span style="font-family: sans-serif;color: #8a79df;margin-left: 60px;">40%</span>
+                            <span style="font-family: sans-serif;font-weight: 600;">complate</span>
+                            <div class="progress rounded-pill w-75 offset-3" style="height:5px;">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated rounded-pill bg-pink"
+                                    role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="img/Group 589.png" class="blue">
+            </div>
+        </div>
+        <!-- /Two-column -->
+
+        <!-- Carousel -->
+        <div class="row d-flex justify-content-center mt-5">
+            <div class="col-lg-5 col-md-6 px-5">
+                <h1 class="offset-1 display-4 text-19" style="font-weight: 700;">
+                    <p class="text-8">TESTIMONIALS</p>
+                    What People Say <br> About Us.
+                </h1>
+                <ol class="carousel-indicators icon-offset">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active icon-radius"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1" class="icon-radius"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2" class="icon-radius"></li>
+                </ol>
+            </div>
+            <div class="col-lg-7 col-md-6 d-flex justify-content-center">
+                <div id="carouselExampleIndicators" class="carousel slide w-100" data-ride="carousel">
+                    <!-- <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-dark"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-dark"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-dark"></li>
+                    </ol> -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="height: 60vh;"><br><br><br>
+                            <div class="avatar-card p-3">
+                                <img src="img/Image (1).png" style="position: absolute;top: -50px;left: -50px;">
+                                <span class="fs" style="color: #5e6282;">
+                                    "Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Temporibus accusantium eaque totam, reiciendis, quam aliquid nemo,
+                                    et a culpa cupiditate ex accusamus vel."
+                                </span><br><br>
+                                <b class="fs" style="color: #5e6282;">Mike taylor</b><br>
+                                <span class="fs" style="color: #5e6282;">Lahore,Pakistan</span>
+                                <br><br>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="height: 60vh;"><br><br><br>
+                            <div class="avatar-card p-3">
+                                <img src="img/Image Placeholder (5).png"
+                                    style="position: absolute;top: -50px;left: -50px;">
+                                <span class="fs" style="color: #5e6282;">
+                                    "Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Temporibus accusantium eaque totam, reiciendis, quam aliquid nemo,
+                                    et a culpa cupiditate ex accusamus vel."
+                                </span><br><br>
+                                <b class="fs" style="color: #5e6282;">Mike taylor</b><br>
+                                <span class="fs" style="color: #5e6282;">Lahore,Pakistan</span>
+                                <br><br>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="height: 60vh;"><br><br><br>
+                            <div class="avatar-card p-3">
+                                <img src="img/Image Placeholder (6).png"
+                                    style="position: absolute;top: -50px;left: -50px;">
+                                <span class="fs" style="color: #5e6282;">
+                                    "Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Temporibus accusantium eaque totam, reiciendis, quam aliquid nemo,
+                                    et a culpa cupiditate ex accusamus vel."
+                                </span><br><br>
+                                <b class="fs" style="color: #5e6282;">Mike taylor</b><br>
+                                <span class="fs" style="color: #5e6282;">Lahore,Pakistan</span>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Carousel -->
+
+        <!-- Owl-carousel -->
+        <div class="row d-flex justify-content-center my-4">
+            <div class="col-lg-2 col-md-5 col-sm-4 m-2 hover-icon p-0">
+                <img src="img/image 27.png">
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-4 m-2 hover-icon p-0">
+                <img src="img/image 28.png">
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-4 m-2 hover-icon p-0">
+                <img src="img/image 29.png">
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-4 m-2 hover-icon p-0">
+                <img src="img/image 30 (1).png">
+            </div>
+            <div class="col-lg-2 col-md-5 col-sm-4 m-2 hover-icon p-0">
+                <img src="img/image 31.png">
+            </div>
+        </div>
+        <!-- /Owl-carousel -->
+
+        <!-- Send-row -->
+        <div class="row my-5 d-flex justify-content-center">
+            <div class="col-10 col-lg-10 col-md-10 col-sm-10 radius-2 pr bg-card" style="height: 55vh;">
+                <a href="" class="btn_On">
+                    <img src="img/Group 77.png" class="send-img">
+                </a>
+                <h5 class="px-4 text-14 mt-3">
+                    Subscribe to get information, latest news and other <br> interesting offers about Cobham
+                </h5>
+                <div class="row d-flex justify-content-center mt-4">
+                    <div class="col-lg-6 col-md-10 col-sm-10 p-0 mt-4">
+                        <form action="#" class="d-flex align-items-center w-100">
+                            <input type="email" class="form-control email pr" placeholder="Your email">
+                            <img src="img/Group 46.png" class="input-icon">
+                            <button class="btn btn-yellow-2 my-4 ml-4" style="font-family: sans-serif;padding: 11px 10px 11px 10px !important;">
+                                Find out more
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <img src="img/Group 42.png" style="width: 300px; top: 8.1rem;position: absolute;opacity: 0.1;">
+                <img src="img/Mask Group-2.png" class="line">
+            </div>
+            <img src="img/Plyus.png" class="plyus-img">
+        </div>
+        <!-- /Send-row -->
+
+        <!-- Footer -->
+        <div class="row d-flex justify-content-center">
+            <div class="col-5 col-lg-2 col-md-3 col-sm-5">
+                <img src="img/Jadoo..png" alt="">
+                <span class="fs-2" style="color: #5e6282;"><br><br>
+                    Book your trip in minute,get full <br>Control for much logner
+                </span>
+            </div>
+            <div class="col-5 col-lg-2 col-md-3 col-sm-5">
+                <b class="text-15">Company</b><br><br>
+                <a href="#" class="text-16">About</a><br>
+                <a href="#" class="text-16">Careers</a><br>
+                <a href="#" class="text-16">Mobile</a>
+            </div>
+            <div class="col-5 col-lg-2 col-md-3 col-sm-5">
+                <b class="text-15">Contact</b><br><br>
+                <a href="#" class="text-16">Help/FAQ</a><br>
+                <a href="#" class="text-16">Press</a><br>
+                <a href="#" class="text-16">Affilates</a>
+            </div>
+            <div class="col-5 col-lg-2 col-md-3 col-sm-5">
+                <b class="text-15">More</b><br><br>
+                <a href="#" class="text-16">Airlinefees</a><br>
+                <a href="#" class="text-16">Airline</a><br>
+                <a href="#" class="text-16">Low fare tips</a>
+            </div>
+            <div class="col-5 col-lg-2 col-md-3 col-sm-5 p-0">
+                <a href="#">
+                    <img src="img/Social.png" style="text-decoration: none !important;">
+                </a>
+                <a href="#">
+                    <img src="img/Social (1).png" style="text-decoration: none !important;">
+                </a>
+                <a href="#">
+                    <img src="img/Social (2).png" style="text-decoration: none !important;">
+                </a>
+                <span class="text-17 offset-1">Discover our app</span>
+                <a href="#">
+                    <img src="img/Google Play.png" style="text-decoration: none !important;width: 100px;">
+                </a>
+                <a href="#">
+                    <img src="img/Play Store.png" style="text-decoration: none !important;width: 100px;">
+                </a>
+            </div>
+        </div>
+        <!-- /Footer -->
+    </div>
+</body>
+
+</html>
+<script src="vendor/scripts/jQuery.min.js"></script>
+<script src="vendor/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+<script src="vendor/scripts/popper.js"></script>
+<script src="vendor/scripts/bootstrap.min.js"></script>
+<script src="vendor/scripts/app.js"></script>
+<script src="index.js"></script>
